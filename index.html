@@ -1,48 +1,303 @@
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hotel Nusantara</title>
+    <meta name="description" content="Hotel Nusantara - Pengalaman menginap yang nyaman, elegan, dan berkesan.">
+    <title>Hotel Nusantara | Stay with Comfort</title>
+
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-    <header>
-        <nav class="navbar">
-            <a href="#" class="logo">HOTEL NUSANTARA</a>
-            <ul>
-                <li><a href="#beranda">Beranda</a></li>
-                <li><a href="#tentang">Tentang</a></li>
-                <li><a href="#fasilitas">Fasilitas</a></li>
-            </ul>
-            <a href="pages/pendaftaran.html" class="btn-daftar">
-                Daftar Sekarang
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">N</span>
+                <span>
+                    <strong>HOTEL NUSANTARA</strong>
+                    <small>COMFORT & HOSPITALITY</small>
+                </span>
             </a>
-        </nav>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false">
+                ☰
+            </button>
+
+            <nav class="nav-menu" id="navMenu">
+                <a href="#beranda">Beranda</a>
+                <a href="#tentang">Tentang Kami</a>
+                <a href="#fasilitas">Fasilitas</a>
+                <a href="#pengalaman">Pengalaman</a>
+                <a href="pages/pendaftaran.html" class="nav-button">Reservasi</a>
+            </nav>
+        </div>
     </header>
 
     <main>
+
+        <!-- HERO -->
         <section class="hero" id="beranda">
-            <h1>Selamat Datang di Hotel Nusantara</h1>
-            <p>Temukan kenyamanan dan pengalaman menginap terbaik.</p>
-            <a href="pages/pendaftaran.html">Mulai Pendaftaran</a>
+            <div class="hero-overlay"></div>
+
+            <div class="container hero-content">
+                <span class="eyebrow">WELCOME TO HOTEL NUSANTARA</span>
+
+                <h1>Tempat Istirahat,<br>
+                    <span>Tempat Cerita Dimulai.</span>
+                </h1>
+
+                <p>
+                    Nikmati pengalaman menginap yang nyaman dengan
+                    pelayanan hangat dan suasana yang dirancang
+                    untuk membuat setiap perjalanan lebih berkesan.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="pages/pendaftaran.html" class="btn btn-gold">
+                        Pesan Kamar
+                    </a>
+
+                    <a href="#tentang" class="btn btn-outline">
+                        Jelajahi Hotel
+                    </a>
+                </div>
+
+                <div class="hero-caption">
+                    <span></span>
+                    Hospitality with a Personal Touch
+                </div>
+            </div>
         </section>
 
-        <section id="tentang">
-            <h2>Tentang Hotel Kami</h2>
-            <p>Hotel dengan pelayanan ramah dan fasilitas berkualitas.</p>
+        <!-- INTRODUCTION -->
+        <section class="intro section-padding">
+            <div class="container intro-grid">
+                <div>
+                    <span class="section-label">SELAMAT DATANG</span>
+                    <h2>Lebih dari Sekadar<br>Tempat Menginap.</h2>
+                </div>
+
+                <div class="intro-text">
+                    <p>
+                        Hotel Nusantara hadir sebagai pilihan akomodasi
+                        bagi Anda yang mengutamakan kenyamanan, ketenangan,
+                        dan pelayanan berkualitas.
+                    </p>
+                    <p>
+                        Kami percaya bahwa pengalaman menginap yang baik
+                        bukan hanya tentang fasilitas, tetapi juga tentang
+                        bagaimana setiap tamu merasa dihargai dan disambut.
+                    </p>
+                </div>
+            </div>
         </section>
 
-        <section id="fasilitas">
-            <h2>Fasilitas Hotel</h2>
-            <p>Wi-Fi gratis, restoran, dan area parkir.</p>
+        <!-- ABOUT / BIOGRAFI -->
+        <section class="about section-padding" id="tentang">
+            <div class="container about-grid">
+                <div class="about-visual">
+                    <div class="visual-card">
+                        <span class="visual-number">01</span>
+                        <span class="visual-title">Our Story</span>
+                        <p>Comfort in Every Moment</p>
+                    </div>
+                </div>
+
+                <div class="about-content">
+                    <span class="section-label">PROFIL HOTEL</span>
+                    <h2>Mengenal Hotel Nusantara</h2>
+
+                    <p>
+                        Hotel Nusantara merupakan sebuah hotel yang
+                        dibangun dengan semangat memberikan pengalaman
+                        menginap yang nyaman, aman, dan berkesan bagi
+                        setiap pengunjung.
+                    </p>
+
+                    <p>
+                        Berangkat dari keyakinan bahwa keramahan adalah
+                        bagian penting dari sebuah perjalanan, Hotel
+                        Nusantara berkomitmen menghadirkan suasana
+                        yang bersahabat melalui pelayanan profesional,
+                        fasilitas yang mendukung, serta perhatian
+                        terhadap kebutuhan setiap tamu.
+                    </p>
+
+                    <p>
+                        Kami ingin menjadi tempat di mana para tamu
+                        dapat beristirahat dengan tenang, menikmati
+                        waktu bersama keluarga, maupun menjalankan
+                        perjalanan bisnis dengan nyaman.
+                    </p>
+
+                    <div class="about-signature">
+                        <span class="signature-line"></span>
+                        <div>
+                            <strong>Hotel Nusantara</strong>
+                            <small>Hospitality & Comfort</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+
+        <!-- VISION MISSION -->
+        <section class="vision section-padding">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="section-label">NILAI KAMI</span>
+                    <h2>Komitmen dalam Setiap Pelayanan</h2>
+                    <p>Prinsip yang menjadi dasar kami dalam menyambut setiap tamu.</p>
+                </div>
+
+                <div class="vision-grid">
+                    <article class="vision-card">
+                        <span>01</span>
+                        <h3>Visi Kami</h3>
+                        <p>
+                            Menjadi pilihan akomodasi terpercaya yang
+                            dikenal karena kenyamanan, keramahan, dan
+                            kualitas pelayanan.
+                        </p>
+                    </article>
+
+                    <article class="vision-card">
+                        <span>02</span>
+                        <h3>Misi Kami</h3>
+                        <p>
+                            Memberikan pelayanan terbaik, menjaga
+                            kebersihan, serta menyediakan fasilitas
+                            yang mendukung kebutuhan para tamu.
+                        </p>
+                    </article>
+
+                    <article class="vision-card">
+                        <span>03</span>
+                        <h3>Nilai Kami</h3>
+                        <p>
+                            Keramahan, integritas, tanggung jawab,
+                            profesionalisme, dan perhatian terhadap
+                            setiap detail.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- FACILITIES -->
+        <section class="facilities section-padding" id="fasilitas">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="section-label">FASILITAS HOTEL</span>
+                    <h2>Kenyamanan dalam Setiap Detail</h2>
+                    <p>Berbagai fasilitas untuk mendukung pengalaman menginap Anda.</p>
+                </div>
+
+                <div class="facility-grid">
+                    <article class="facility-card">
+                        <span class="facility-icon">✦</span>
+                        <h3>Kamar Nyaman</h3>
+                        <p>Kamar yang bersih dan tertata untuk waktu istirahat berkualitas.</p>
+                    </article>
+
+                    <article class="facility-card">
+                        <span class="facility-icon">⌘</span>
+                        <h3>Wi-Fi Gratis</h3>
+                        <p>Koneksi internet untuk kebutuhan pekerjaan dan hiburan.</p>
+                    </article>
+
+                    <article class="facility-card">
+                        <span class="facility-icon">◇</span>
+                        <h3>Restoran</h3>
+                        <p>Area bersantap yang nyaman untuk menikmati hidangan.</p>
+                    </article>
+
+                    <article class="facility-card">
+                        <span class="facility-icon">▤</span>
+                        <h3>Area Parkir</h3>
+                        <p>Area parkir yang mendukung kenyamanan kendaraan tamu.</p>
+                    </article>
+
+                    <article class="facility-card">
+                        <span class="facility-icon">✧</span>
+                        <h3>Resepsionis</h3>
+                        <p>Pelayanan ramah untuk membantu kebutuhan informasi tamu.</p>
+                    </article>
+
+                    <article class="facility-card">
+                        <span class="facility-icon">♡</span>
+                        <h3>Pelayanan Ramah</h3>
+                        <p>Keramahan dan perhatian dalam setiap interaksi.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE -->
+        <section class="experience section-padding" id="pengalaman">
+            <div class="container experience-content">
+                <span class="section-label">YOUR STAY, OUR PRIORITY</span>
+                <h2>Setiap Perjalanan Layak<br>Mendapatkan Kenyamanan.</h2>
+                <p>
+                    Baik untuk liburan, perjalanan keluarga, maupun
+                    urusan pekerjaan, Hotel Nusantara siap menjadi
+                    bagian dari perjalanan Anda.
+                </p>
+
+                <a href="pages/pendaftaran.html" class="btn btn-gold">
+                    Mulai Reservasi
+                </a>
+            </div>
+        </section>
+
     </main>
 
-    <footer>
-        <p>&copy; 2026 Hotel Nusantara</p>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <a href="index.html" class="logo footer-logo">
+                    <span class="logo-icon">N</span>
+                    <span>
+                        <strong>HOTEL NUSANTARA</strong>
+                        <small>COMFORT & HOSPITALITY</small>
+                    </span>
+                </a>
+
+                <p>
+                    Menghadirkan kenyamanan dan keramahan
+                    dalam setiap pengalaman menginap.
+                </p>
+            </div>
+
+            <div>
+                <h3>Navigasi</h3>
+                <a href="#beranda">Beranda</a>
+                <a href="#tentang">Tentang Kami</a>
+                <a href="#fasilitas">Fasilitas</a>
+                <a href="pages/pendaftaran.html">Reservasi</a>
+            </div>
+
+            <div>
+                <h3>Informasi</h3>
+                <p>Alamat: Silakan lengkapi alamat hotel</p>
+                <p>Telepon: Silakan lengkapi nomor hotel</p>
+                <p>Email: Silakan lengkapi email hotel</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; <span id="year">2026</span> Hotel Nusantara. All Rights Reserved.</p>
+        </div>
     </footer>
 
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
