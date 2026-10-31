@@ -1,0 +1,119 @@
+```css
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #243044;
+    background: #ffffff;
+    line-height: 1.6;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 8%;
+    background: #ffffff;
+}
+
+.logo {
+    font-size: 21px;
+    font-weight: bold;
+    color: #163b65;
+    text-decoration: none;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.navbar ul a {
+    color: #243044;
+    text-decoration: none;
+}
+
+.btn-daftar {
+    background: #163b65;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+    background: #edf3f8;
+}
+
+.hero h1 {
+    max-width: 750px;
+    font-size: 42px;
+    color: #163b65;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 550px;
+    margin-bottom: 25px;
+}
+
+.hero a {
+    background: #163b65;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+/* SECTION */
+section:not(.hero) {
+    padding: 70px 8%;
+    text-align: center;
+}
+
+section h2 {
+    color: #163b65;
+    margin-bottom: 20px;
+}
+
+/* FOOTER */
+footer {
+    padding: 25px;
+    text-align: center;
+    background: #163b65;
+    color: white;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .navbar ul {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+}
+```
